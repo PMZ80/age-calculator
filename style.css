@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgba(0, 255, 255, 0.458);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculater{
+    width: 80%;
+    height: 600px;
+    border: 1px solid transparent;
+    background-color: white;
+    margin-top: 70px;
+    border-radius: 50px;
+    box-shadow: -2px 6px 43px 1px gray;
+}
+.inp-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: sans-serif;
+    margin-top: 50px;
+}
+#date{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+    border-color: blueviolet;
+}
+#month{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+    border-color: blueviolet;
+}
+#year{
+    width: 115px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+    border-color: blueviolet;
+}
+#year:focus{
+  background-color: rgba(137, 43, 226, 0.549);
+  border-color: blueviolet;
+  color: white;
+}
+#month:focus{
+    background-color: rgba(137, 43, 226, 0.549);
+    border-color: blueviolet;
+    color: white;
+  }
+  #date:focus{
+    background-color: rgba(137, 43, 226, 0.549);
+    border-color: blueviolet;
+    color: white;
+  }
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+-webkit-appearance: none;
+margin: 0;}
+h2{
+    color: blueviolet;
+    margin-bottom: 5px
+}
+.base{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+}
+.btn{
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    border-color: blueviolet;
+    background-color: rgba(137, 43, 226, 0.604);
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+}
+#age{
+    margin-top: 10px;
+    height: 150px;
+    border:1px solid transparent ;
+    background-color: blueviolet;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 55px;
+    margin-top: 126px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flower</title>
+<link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="calculater">
+       <div class="inp-cont">
+         <div class="day">
+            <h2>Day</h2>
+            <input type="text" placeholder="dd" name="date" id="date"minlength="1" maxlength="2">
+         </div>
+         <div class="month">
+            <h2>Month</h2>
+            <input type="text" placeholder="mm" name="month" id="month" minlength="1" maxlength="2">
+         </div>
+         <div class="year">
+            <h2>Years</h2>
+            <input type="text" placeholder="yyyy" name="year" id="year"minlength="4" maxlength="4">
+         </div>
+       </div>
+       <div class="base">
+        <div class="enter">
+          <input type="button" name="Your Age" value="Your Age" onclick="age()" class="btn">
+        </div>
+      </div>
+      <div id="age"></div>
+      </div>
+      <!-- <div class="base">
+        <div class="enter">
+          <input type="button" name="Your Age" value="Your Age" onclick="age()">
+        </div>
+      </div>
+      <div id="age"></div> -->
+      <script src="main.js"></script>
+    </div>
+    
+  </body>
+</html>
